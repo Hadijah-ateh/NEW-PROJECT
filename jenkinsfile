@@ -65,7 +65,7 @@ pipeline{
 
                 script{
                    sh   'docker build -t myuber .'
-                   sh 'docker tag myuber: latest hadijahateh/new-project:project1 image'
+                   sh 'docker tag myuber: latest hadijahateh/new-project: project1 image'
                 }
             }
         }
